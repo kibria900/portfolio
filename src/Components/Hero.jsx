@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import profileImage from "../assets/kibria.png"; // 🖼️ তোমার ছবির লোকেশন ঠিক করো
+import profileImage from "../assets/kibria.png"; 
 
 const Hero = () => {
   const [animate, setAnimate] = useState(false);

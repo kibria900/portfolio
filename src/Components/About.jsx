@@ -9,25 +9,59 @@ const About = () => {
         </h2>
 
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-          I'm <strong className="text-blue-600">Golam Kibria Hassan</strong>, a passionate{" "}
+          Hello! I'm <strong className="text-blue-600">Golam Kibria Hassan</strong>, a dedicated{" "}
           <span className="text-emerald-600 font-semibold">Full Stack Web Developer</span> and{" "}
-          <span className="text-indigo-600 font-semibold">Android App Developer (Java)</span> from Bangladesh.
+          <span className="text-indigo-600 font-semibold">Android App Developer</span> from Bangladesh.
+          I specialize in building dynamic, responsive web applications and Android apps using modern technologies.
         </p>
 
         {/* 🎓 Education */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold text-blue-600 mb-2">🎓 Education</h3>
-          <ul className="list-disc list-inside text-gray-800 space-y-2">
-            <li>🏫 <strong>Annada Govt High School</strong></li>
-            <li>🏛️ <strong>Govt Science College</strong></li>
-            <li>🎓 <strong>University of Dhaka</strong> — CSE Department</li>
-          </ul>
+        <div className="mb-10">
+          <h3 className="text-2xl font-semibold text-blue-600 mb-4">🎓 Education</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-gray-800">
+              <thead>
+                <tr className="bg-blue-100">
+                  <th className="p-3">Degree</th>
+                  <th className="p-3">Institution</th>
+                  <th className="p-3">Major</th>
+                  <th className="p-3">Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t">
+                  <td className="p-3">M.Sc. (Running)</td>
+                  <td className="p-3">University of Dhaka</td>
+                  <td className="p-3">Computer Science & Engineering</td>
+                  <td className="p-3">Running</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="p-3">B.Sc.</td>
+                  <td className="p-3">University of Dhaka</td>
+                  <td className="p-3">Computer Science & Engineering</td>
+                  <td className="p-3">2024</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="p-3">H.S.C</td>
+                  <td className="p-3">Govt. Science College</td>
+                  <td className="p-3">Science</td>
+                  <td className="p-3">2018</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="p-3">S.S.C</td>
+                  <td className="p-3">Annada Govt. High School</td>
+                  <td className="p-3">Science</td>
+                  <td className="p-3">2016</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         {/* 💼 Skills */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-semibold text-green-600 mb-2">💼 Skills & Technologies</h3>
-          <div className="flex flex-wrap gap-3 text-sm sm:text-base font-medium mt-2">
+        <div className="mb-12">
+          <h3 className="text-2xl font-semibold text-green-600 mb-4">💼 Skills & Technologies</h3>
+          <div className="flex flex-wrap gap-3 text-sm sm:text-base font-medium">
             <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">HTML</span>
             <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">CSS</span>
             <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">JavaScript</span>
@@ -49,8 +83,6 @@ const About = () => {
             <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full">Java</span>
           </div>
         </div>
-
-    
 
         {/* 📄 Download CV */}
         <div className="text-center">
